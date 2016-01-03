@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
 		buf << "Could not load in png image. Reason: " << img.error() << std::endl;
 		std::cerr << buf.str();
 		return 1;
-  }
+	}
 
 	// Do something useful with it
 
